@@ -144,11 +144,11 @@ h3 {
     margin: 0 0 1em 0;
   }
   .button {
-  padding: 0.7em 1.5em;
-  text-align: center;
+    padding: 0.7em 1.5em;
+    text-align: center;
   }
-.button a {
-  font-size: 1.3em; 
+  .button a {
+    font-size: 1.3em; 
   }
 }
 
@@ -236,7 +236,7 @@ h3 {
   background-color: #FFF;
   margin-top: 2.4em; 
 }
-.offer, .place, .we, .video, .number {
+.offer, .place, .we {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -347,7 +347,7 @@ h3 {
   width: 100%;
 }
 .feel h3 {
-  margin: 0.2em 0 1.5em 0;
+  margin: 0.3em 0 0.8em 0;
 }
 
 /* We */
@@ -391,8 +391,27 @@ h3 {
 }
 
 /* Video */
-.video {
+.video, .number {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap; 
+  
+  -webkit-justify-content: space-around; 
+  -moz-justify-content: space-around; 
+  -ms-justify-content: space-around; 
+  justify-content: space-around;
+  align-items: flex-start;
+
+  width: 51.5em;
   margin: 1em 0em 0em;
+}
+.vid {
+  width: 100%;
+  margin: 1em 0 0 0;
 }
 .video p {
   text-align: center;
