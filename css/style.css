@@ -11,15 +11,17 @@ body {
   margin: 0;
 }
 h1 {
+  font-family: "PT Serif", Times, Georgia, serif;
   font-size: 2.4em;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
-  line-height: 1.2em;
+  line-height: 1.3em;
   letter-spacing: -0.02em;
 }
 h2 {
+  font-family: "PT Serif", Times, Georgia, serif;
   font-size: 1.72em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3em;
   text-align: center;
 }
@@ -69,6 +71,7 @@ h3 {
   width: 51.5em;
 }
 .nav h3 {
+  font-family: "PT Serif", Times, Georgia, serif;
   color: #970600;
   font-weight: 700;
   margin: 0;
@@ -107,16 +110,16 @@ h3 {
   align-items: flex-start;
   
   width: 51.5em;
-  margin-top: 6em;
+  margin-top: 4.8em;
 }
 .title h1 {
-  margin: 0 0 1.4em 0;
+  margin: 0 0 1.5em 0;
 }
 .button {
-  background: #0C8215;
+  background: #970600;
   border: 2px solid #FFFFFF;
   border-radius: 0.85em;
-  padding: 0.7em 2.2em;
+  padding: 1.1em 2.5em;
   text-align: center;
 }
 .button a {
@@ -126,7 +129,7 @@ h3 {
   text-decoration: none;  
 }
 .button:hover {
-  background: #2FA938;
+  background: #CE0A03;
 }
 
 @media all and (max-width: 1110px) {
@@ -144,7 +147,7 @@ h3 {
     margin: 0 0 1em 0;
   }
   .button {
-    padding: 0.7em 1.5em;
+    padding: 0.9em 1.5em;
     text-align: center;
   }
   .button a {
@@ -256,8 +259,8 @@ h3 {
 }
 
 .offer h2, .we h2 {
-  flex: 0 1 75%;
-  margin: 0.5em 0em 1.5em;
+  flex: 0 1 85%;
+  margin: 0.5em 0em 2em;
 }
 .one-third {
   display: flex;
@@ -281,11 +284,11 @@ h3 {
   }
 h2 {
   font-size: 1.5em;
-  line-height: 1.2em;
+  line-height: 1.4em;
   }
 h3 {
   font-size: 1.1em;
-  line-height: 1.18em;
+  line-height: 1.2em;
   }
 }
 @media all and (max-width: 665px) {
@@ -299,11 +302,11 @@ h3 {
 @media all and (max-width: 465px) {
   h2 {
   font-size: 1.3em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   }
-h3 {
+  h3 {
   font-size: 1em;
-  line-height: 1.1em;
+  line-height: 1.2em;
   }
 }
 
@@ -347,13 +350,13 @@ h3 {
   width: 100%;
 }
 .feel h3 {
-  margin: 0.3em 0 0.8em 0;
+  margin: 0.3em 0 0.9em 0;
 }
 
 /* We */
 .we h2 {
   flex: 0 1 85%;
-  margin: 0.5em 0em 1.5em;
+  margin: 0.5em 0em 2em;
 }
 .one-forth {
   display: flex;
@@ -407,7 +410,7 @@ h3 {
   align-items: flex-start;
 
   width: 51.5em;
-  margin: 1em 0em 0em;
+  margin: 1.43em 0em 0em;
 }
 .vid {
   width: 100%;
@@ -427,7 +430,7 @@ h3 {
 
 /* Number */
 .number {
-  margin: 1em 0em 2.5em;
+  margin: 1em 0em 5em;
 }
 .top {
   width: 100%;
@@ -435,7 +438,7 @@ h3 {
 }
 .bot {
   width: 100%;
-  margin: 0 0 1em 0;
+  margin: 0 0 1.5em 0;
   font-weight: 700;
 }
 
